@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Apply Promotions\IApplyPromotions.cs" />
+    <Compile Include="Promotions Available\PromotionA.cs" />
+    <Compile Include="Promotions Available\PromotionB.cs" />
+    <Compile Include="Promotions Available\PromotionC.cs" />
+    <Compile Include="Promotions Available\PromotionD.cs" />
+    <Compile Include="Order\Order.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Apply Promotions\ApplyPromotions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Order\OrderHelper.cs" />
+    <Compile Include="Shopping Cart\ShoppingCart.cs" />
+    <Compile Include="SKUs\SKUItemsAndPromotionsApplicable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
